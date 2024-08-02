@@ -17,6 +17,12 @@ a:hover {
     font-family: Arial, Helvetica, sans-serif;
     color: #673d27;
 }
+a:active {
+    .sectionpiece {
+        background-color: #ffe0bc;
+        color: #673d27;
+    }
+}
 
 #navbar {
     background-color: rgb(81, 50, 28);
@@ -63,4 +69,10 @@ a:hover {
     background-color: #ffe0bc;
     color: #673d27;
     cursor: pointer;
+}
+
+#about {
+    padding: 10px 0 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #673d27;
 }
